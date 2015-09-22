@@ -1,0 +1,223 @@
+
+<!-- This is how you add comments in HTML                           -->
+<!-- Use DOCTYPE to give the type of file, HTML in this case.       -->
+<!DOCTYPE html>
+
+<html lang="en">                  <!-- en for English -->
+
+<!--
+I have commented out most of the content of this file.
+
+When you study this file, do the following:
+
+1. Uncomment the <title>...</title> tag and see what it does.
+2. Unveil a small portion of the body part of this document at a time
+   by moving the line labeled "Line **************" below.
+
+   That way you will be able to see what part of the code generates
+   what part of the output in the web browser window.
+   I have already unveiled one line starting with <center>...
+-->
+
+<head>
+<meta charset="utf-8">
+<!--
+<title>A Quick Introduction to HTML</title>
+-->
+</head>
+
+<body>
+
+<center><h1>A Quick Introduction</h1></center>
+
+
+
+
+<center><h3 style="color:red">to HTML</h3></center>
+
+<p><b style="color:red">Try "View Page Source" on this page with a
+  right click!</b>  If you are using a web browser that does not
+  show <b>View Page Source</b> as one of the menu options, e.g., on
+  Safari, then google something like <tt>How to view page souce on
+  Safari</tt>. (Actually, on Safafi try Safari; Preferences; check on
+  "Show Develop menu in menu bar", then you will see "Show Page
+  Source" on a right click, or 2-finger click.)</p>
+
+<p>By the way, what editor are you using? You should use a plain text
+  editor.  MS Word is <i>not</i> a plain text editor.  You can use
+  <b>Subline Text 2</b> or <b>emacs</b> to create an HTML file.</p> 
+
+<hr>
+
+<p>Writing paragraphs.</p>
+
+<p>Let's start with a plain looking paragraph.</p>
+
+<p>Another one with some tags like <i>itatlic</i> and <b>bold</b>
+  and <tt>teletype</tt> fonts and <u>underlined</u> text as a few
+  examples.</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Start with some blank spaces on this line
+  to get an indented look. BTW, nbsp stands for non-breaking space.
+  Try googling it to see exactly what it is used for.</p>
+
+<p>If you need more info on HTML, see the tutorial link on the course
+  web.</p>
+
+<p>If you want me to include that link here, we can do that as well
+  like this:
+<a href="http://www.w3schools.com/html/default.asp">HTML Tutorial</a>
+</p>
+
+<hr>
+Ways to emphasize:<br /><p />
+
+<strong>This</strong> is a stronger emphasis than <i>this italic
+  emphasis</i> or <small>this small emphasis</small>. You can
+  emphasize <em>like this</em> as well.  You can <mark>mark some
+  text</mark> with the <tt>mark</tt> tag.</p>
+
+<p>Here <span style="color:red">is
+another way to emphasize</span> using the <tt>span</tt> tag.</p>
+
+<p>Using the <tt>del</tt> tag, you can <del>delete some text but leave 
+  it</del> as part of the document. Use the <tt>ins</tt> tag to
+  <ins>insert some text</ins> in your document.</p>
+
+<p>Add a <sup>superscript</sup> or <sub>subscript</sub> as you
+  please.</p>
+
+<hr/>
+An unordered list:
+<ul>
+ <li style="color:red"> One</li>
+ <li> Two</li>
+ <li> <span style="color:green">Three</span></li>
+</ul>
+
+<p/>
+
+<hr/>
+An ordered list:
+<ol>
+ <li>Uno</li>
+ <li>Dos</li>
+ <li>Tres</li>
+</ol>
+
+<hr/>
+How about a table?
+<center>
+<table border=2 cellspacing=10 cellpadding=5>
+
+ <tr>
+  <th><center><b>City</b></center></th>
+  <th><center><b>State</b></center></th>
+ </tr>
+
+ <tr>
+  <td>Claremont</td>
+  <td>California</td>
+ </tr>
+
+ <tr>
+  <td>Seattle</td>
+  <td>Washington</td>
+ </tr>
+
+ <caption>Caption added</caption>
+
+</table>
+</center>
+<p>Try moving the caption to the bottom of the table.  How do you find
+out?  Well..., how about googling something like: "caption on html
+table"?</p>
+
+<hr/>
+
+Verbatim:
+<pre style="color:red;font-size:20pt">
+         This is a test
+            of the 
+                 pre    tag...
+</pre>
+
+<hr/>
+Some more hyperlinks:
+<ul>
+ <li> <a HREF="http://www.espn.com">Go to a page</a></li>
+      <p />
+ <li> Using an image as a link: 
+      <a href="http://cnn.com">
+       <img src="logo.cnn.com.gif" alt="Pluto mission postponed"
+                                   width=150px border=0px> 
+      </a>
+      </li>
+</ul>
+
+<hr/>
+
+<p>
+Another image:
+<img src="pic_mountain.jpg" alt="Mountain View"
+        style="width:304px;height:228px">
+
+<p>
+Images on another server:
+<p>
+<img src="http://www.w3schools.com/images/w3schools_green.jpg">
+
+<p>Animated images:
+<p>
+<img src="programming.gif" alt="Computer Man"
+     style="width:70px;height:70px">
+
+<p>
+<a href="http://blog.saltsurf.com/"><img src="http://media.giphy.com/media/oCyYIUErFZc6k/giphy.gif" height=200 hspace="1"></img></a>
+<br>
+<audio autoplay="autoplay" controls="controls">
+  <source src=Halamadrid.mp3.">
+</audio>
+
+<hr>
+
+<b>Some more . . .</b>
+
+<p>We can generate a short quote: <q>Go fly a kite!</q></p>
+
+<p>We can generate a long quote using the tag <tt>blockquote</tt> like
+  this:
+  <blockquote>
+You live in the most privileged nation on earth. You are the most
+privileged citizens of that privileged nation; for you have been given
+the opportunity to study and learn, to take your place among the tiny
+minority of the world's educated men and women. By coming to this
+school you have been lifted onto a tiny, sunlit island, while all
+around you lies an ocean of human misery, injustice, violence, and
+fear. You can use your enormous privilege and opportunity to seek
+purely private pleasure and gain. But history will judge you, and, as
+the years pass, you will ultimately judge yourself, on the extent to
+which you have used your gifts to enrich the lives of your fellow
+man. In your hands, not with presidents or leaders, is the future of
+your world and the fulfillment of the best qualities of your own
+spirit. Robert F. Kennedy (Speech to Students, University of
+California at Berkeley, October 10, 1966.
+</blockquote>
+
+<p>The <abbr title="United Nations">UN</abbr> was estabelished in
+  1945.</p>
+
+
+<p>
+<b>This gives you an idea of some basic HTML material.  Please
+  go through the tutorial on HTML given on the course web to learn
+  more.</b>
+</p>
+<p>
+<mark> Emily Cassell was here</mark>
+<p>
+
+
+
+</body>
+</html>

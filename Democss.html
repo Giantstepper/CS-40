@@ -1,0 +1,88 @@
+
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>A Quick Introduction to HTML and CSS</title>
+
+<link href="demo.css" rel="stylesheet" type="text/css"/>
+
+<style>
+  b {color:red}
+</style>
+</head>
+
+<body>
+
+<center><h1>A Quick Introduction</h1></center>
+<center><h2 id="me">to HTML</h2></center> 
+<center><h3 style="color:blue">and CSS</h3></center>
+
+<p>This demo file contains some <b>CSS</b> examples.</p>
+
+<p>CSS can be done in one of three ways</p>
+
+<p><b>First,</b> you can use a <i>style</i> attribute of an HTML element,
+e.g., <tt style="color:green">this is an example</tt> using it.</p>
+
+<p><b>Second,</b> you can define a style as part of the <tt>head</tt> tag
+as I did above for the <b>b</b> tag.  With that "b" tag
+defined <b>this part will be in red</b> as you can see.</p>
+
+<p><b>Third,</b> you can create a CSS file, e.g., <tt>demo.css</tt>, as I
+did in this example and link it.  See the <b>link</b> tag
+defined above.  It has three
+attributes: <tt>href</tt>, <tt>rel</tt>, and <tt>type</tt>.
+The <tt>href</tt> attribute has the CSS file name as its
+value.</p>
+
+<p>There may be some things that are not obvious at this point.  Let's
+  see what each selector says in <tt>demo.css</tt>.</p>
+<pre>
+    body {font-size:12pt}
+    h1,h2,h3 {color:purple}
+    b {background-color:#b0c4de}
+    tt {color:blue;font-size:12pt}
+    #me {color:green}
+    .pink {background-color:pink}
+</pre>
+
+<p>The <b>body</b> selector says the entire body should be in 12pt font
+size, which is easy to understand.</p>
+
+<p>The second line defines selectors <tt>h1</tt>, <tt>h2</tt>,
+and <tt>h3</tt> to be of color <tt style="color:purple">purple</tt>.  You
+will notice that the first line of this document,
+i.e., <b style="color:purple">A Quick Introduction</b> is in purple as
+expected because it is in an <tt>h1</tt> tag.</p>
+
+<p>How come the second line (<b style="color:green">to HTML</b>) with
+the <tt>h2</tt> tag is in <b style="color:green">green</b> instead
+of <b style="color:purple">purple</b> as is defined
+in <tt>demo.css</tt>?  Well, it is because that line with
+the <tt>h2</tt> tag is given an <tt>id</tt> with the
+value <tt>me</tt> and <tt>me</tt> is defined to be
+in <b style="color:green">green</b> with the pound sign (<tt>#</tt>)
+in <tt>demo.css</tt>.  We use the pound sign (<tt>#</tt>) to introduce
+a user-defined <i>id</i> selector as this example shows.  As you can
+see, there is precedence order among these specifications.  As you can
+see, we can also define one called a <i>class</i> selector using a dot
+(<tt>.</tt>) notation as is done with the <tt>pink</tt> selector.  The
+difference between the ones defined by a pound sign and the ones
+defined by a dot is that the one defined by a pound sign is for a
+single unique element within a page, whereas the one defined by a dot
+is for a class of elements within a page.  So, you can
+use <tt>pink</tt> in multiple places in a file as you can see
+next: <strong class=pink>Here is an example</strong>
+and <i class=pink>here is another example</i>. Some more text here if
+you want to add.</p>
+
+<p>
+<strong>Emily was here</strong>
+</p>
+
+</body>
+</html>

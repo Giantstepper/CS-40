@@ -1,0 +1,35 @@
+
+@CHARSET "UTF-8";
+
+/*
+ Can use CSS to have control over the layout and presentation of 
+ web pages.  A CSS contains lines of selectors.  A selector is of
+ the following form:
+
+     selector (property:value)
+
+ Each line below is a selector declaration. 
+
+ An id is defined using a pound sign (#), e.g., #me below, which 
+ can then be used like this: id="me". 
+
+ Universal class 'pink' is defined below as if it was a tag.  You can 
+ then reference the class with class="pink". 
+
+ Difference between one defined with a pound sign and one defined with
+ a dot, e.g., #foo and .bar
+   - #foo is to control one element, unique on a page
+   - .bar is to control one class of elements
+
+ All these are described in more detail in democss.html file, which uses
+ this file (demo.css).
+
+*/
+
+body {font-size:12pt}
+h1,h2,h3 {color:purple}
+b {background-color:#b0c4de}
+tt {color:blue;font-size:12pt}
+#me {color:green}
+.pink {background-color:pink}
+

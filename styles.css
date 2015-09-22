@@ -1,0 +1,44 @@
+.blue{
+	color:#101A64;
+}
+
+.green{
+	color:#4d8514;
+}
+.background {
+	background-image: url("http://www.linguaserviceworldwide.com/wp-content/uploads/2013/01/Salamanca-%C2%A9-Tourist-Office-of-Spain-in-New-York-TURESPA%C3%91A-3.jpg");
+	background-size:cover;
+	background-color:#000;
+}
+
+ .centered { 
+ 	text-align: center; 
+ 	list-style-position:inside;
+ }
+ .square {
+    width: 50%;
+    height: 30%;
+}
+.box {
+	style="background-color: #8b1d1d; 
+	background-color: rgba(139, 29, 29, 0.75); 
+	color:#000000
+}
+.blackcat {
+	color:#000000;
+}
+.square2 {
+	width: 50%;
+	height: 30%;
+}
+.img  {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.center-div {
+	margin-left: auto;
+	margin-right: auto;
+	width:40%;
+}
